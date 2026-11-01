@@ -1,6 +1,3 @@
-# autodiag-selfhealing-k8s
-AI-assisted incident detection, diagnosis, and self-healing framework for Kubernetes-based microservices.
-
 # AutoDiag Self-Healing K8s
 *AI-Assisted Incident Detection, Diagnosis, and Self-Healing Framework for Kubernetes-Based Microservices*
 
