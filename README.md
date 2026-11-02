@@ -15,6 +15,22 @@ Modern cloud-native applications deployed on Kubernetes generate vast amounts of
 
 ---
 
+## 👥 Project & Group Details
+* **Course Code & Title:** EEY6689 - Final Group Project
+* **Group Number:** Group No. 34[cite: 12]
+* **Institution:** The Open University of Sri Lanka - Faculty of Engineering Technology (Department of Electrical and Computer Engineering)[cite: 12]
+
+### **Group Members**
+| Name | Registration No. | OUSL Email |
+| :--- | :--- | :--- |
+| **M.T.H.M. Thilakarathna**[cite: 12] | 422515700[cite: 12] | `s22010001@ousl.lk`[cite: 12] |
+| **J.D.S. Sandaruwan**[cite: 12] | 222516468[cite: 12] | `s22010570@ousl.lk`[cite: 12] |
+| **H.G.C. Prasangika**[cite: 12] | 221425074[cite: 12] | `s92065074@ousl.lk`[cite: 12] |
+| **R.B.S. Premathilake**[cite: 12] | 422510727[cite: 12] | `s22010156@ousl.lk`[cite: 12] |
+| **V.S. Ranasinghe**[cite: 12] | 421421850[cite: 12] | `s92061850@ousl.lk`[cite: 12] |
+
+---
+
 ## 🏗️ System Architecture
 The platform is organized into a modular, cloud-native architecture:
 
@@ -28,6 +44,6 @@ autodiag-selfhealing-k8s/
 ├── kubernetes/           # K8s manifests, deployments, services, & autoscaling configs
 ├── microservices/        # Target containerized microservices (Service A, B, C)
 ├── self-healing/         # Autonomous recovery engine & Kubernetes API controller
-├── datasets/             # Telemetry samples, log logs, and incident records
+├── datasets/             # Telemetry samples, log files, and incident records
 ├── tests/                # Unit, integration, and system test suites
 └── docs/                 # Architecture diagrams, research reports, and documentation
