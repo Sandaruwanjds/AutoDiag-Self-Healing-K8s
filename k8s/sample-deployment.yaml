@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: autodiag-sample-app
+  labels:
+    app: autodiag
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: autodiag
+  template:
+    metadata:
+      labels:
+        app: autodiag
+    spec:
+      containers:
+      - name: web
+        image: nginx:alpine
+        ports:
+        - containerPort: 80
