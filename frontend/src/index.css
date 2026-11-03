@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+  .glass-panel {
+    background: rgba(17, 24, 39, 0.75);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+  }
+  .glass-glow-blue {
+    box-shadow: 0 0 25px -5px rgba(59, 130, 246, 0.3);
+  }
+}
