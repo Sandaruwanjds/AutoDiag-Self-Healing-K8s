@@ -22,7 +22,6 @@ def health_check():
 
 @app.post("/api/v1/logs/ingest")
 def ingest_telemetry_log(log_data: dict):
-    # මෙහිදී මයික්රොසර්විස් වලින් එන ලොග්ස් ප්රොසෙස් කිරීම සිදු කරයි
     return {
         "status": "Received",
         "processed": True,
